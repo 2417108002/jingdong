@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+body {
+  font-size: 14px;
+}
+a {
+    text-decoration: none;
+    /* 直接在默认a样式设置为666 */
+    color: #666;
+    
+  }
+  li {
+    list-style: none;
+  }
+  input {
+    /* input内外边框都去掉 */
+    border: 0;
+    outline: 0;
+  }
+  img {
+    /* 设置图标标签对齐方式 中线对齐 解决图片距离块级元素3px间距 */
+    vertical-align: middle;
+  }
+  input,
+  button {
+    /* 消除输入框和按钮的原生外观，在iOS上加上这个属性才能给按钮和输入框自定义样式  */
+    -webkit-appearance: none;
+    /* 去掉IOS移除原生控件样式 */
+    -webkit-touch-callout: none;
+  }

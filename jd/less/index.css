@@ -1,0 +1,224 @@
+html {
+  font-size: 26.66667vw;
+}
+body {
+  font-size: .14rem;
+}
+#header {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  height: 0.4rem;
+  z-index: 9;
+}
+#header .left {
+  display: flex;
+  width: 0.8rem;
+  justify-content: center;
+  align-items: center;
+}
+#header .left #logo {
+  width: 0.6rem;
+  height: 0.23rem;
+  background: url(../images/sprites.png) no-repeat 0px -1.1rem / 2.2rem 2rem;
+}
+#header .center {
+  flex: 1;
+}
+#header .center .form {
+  position: relative;
+  width: 100%;
+}
+#header .center .form .search {
+  width: 100%;
+  height: 0.3rem;
+  box-sizing: border-box;
+  padding-left: 0.26rem;
+  border-radius: 0.15rem;
+  margin-top: 0.05rem;
+}
+#header .center .form .icon_bg {
+  position: absolute;
+  top: 0.1rem;
+  left: 0.04rem;
+  width: 0.2rem;
+  height: 0.2rem;
+  background: url(../images/sprites.png) -0.6rem -1.1rem / 2rem 2rem;
+}
+#header .right {
+  display: flex;
+  width: 0.5rem;
+}
+#header .right .login {
+  display: flex;
+  width: 0.5rem;
+  justify-content: center;
+  align-items: center;
+}
+#lunbotu img {
+  width: 100%;
+}
+#nav {
+  height: 1.5rem;
+}
+#nav ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+#nav ul li {
+  width: 25%;
+  margin-top: 0.05rem;
+}
+#nav ul li a {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+#nav ul li a img {
+  width: 0.4rem;
+  height: 0.4rem;
+}
+#nav ul li a span {
+  margin: 0.05rem 0;
+}
+#main {
+  background: #f5f5f5;
+  padding: 0.1rem;
+  margin-bottom: 0.7rem;
+}
+#main .main1 {
+  height: 2rem;
+  background: #fff;
+}
+#main .main1 .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 0.4rem;
+}
+#main .main1 .title .left {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#main .main1 .title .left img {
+  width: 0.2rem;
+  margin-left: 0.05rem;
+}
+#main .main1 .title .left > span {
+  margin-left: 0.05rem;
+  color: #df443b;
+}
+#main .main1 .title .left .downtime {
+  margin-left: 0.05rem;
+}
+#main .main1 .title .left .downtime span {
+  display: inline-block;
+  width: 0.15rem;
+  height: 0.15rem;
+  line-height: 0.15rem;
+  text-align: center;
+  color: white;
+  background: #000;
+}
+#main .main1 .content {
+  display: flex;
+}
+#main .main1 .content .shop {
+  flex: 1;
+}
+#main .main1 .content .shop a {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+#main .main1 .content .shop a img {
+  width: 1.1rem;
+}
+#main .main1 .content .shop a span {
+  color: #df443b;
+}
+#main .main1 .content .shop ~ div {
+  border-left: 0.01rem solid #ccc;
+}
+#main .market {
+  background: #fff;
+  margin-top: 0.1rem;
+}
+#main .market .title {
+  position: relative;
+  height: 0.3rem;
+  line-height: 0.3rem;
+}
+#main .market .title h4 {
+  padding-left: 0.3rem;
+}
+#main .market .title h4::before {
+  position: absolute;
+  top: 0.1rem;
+  left: 0.15rem;
+  width: 0.05rem;
+  height: 0.1rem;
+  content: "";
+  background: #df443b;
+}
+#main .market .content {
+  display: flex;
+}
+#main .market .content .left {
+  flex: 1;
+}
+#main .market .content .left a {
+  display: block;
+}
+#main .market .content .left a img {
+  width: 100%;
+  height: 100%;
+}
+#main .market .content .right {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+#main .market .content .right a {
+  display: block;
+}
+#main .market .content .right a img {
+  width: 100%;
+  height: 100%;
+}
+.bt {
+  border-top: 0.01rem solid #ccc;
+}
+.br {
+  border-right: 0.01rem solid #ccc;
+}
+.bb {
+  border-bottom: 0.01rem solid #ccc;
+}
+.bl {
+  border-left: 0.01rem solid #ccc;
+}
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: #fff;
+}
+#footer ul {
+  width: 100%;
+  display: flex;
+}
+#footer ul li {
+  flex: 1;
+}
+#footer ul li a {
+  display: block;
+  text-align: center;
+}
+#footer ul li a img {
+  width: 0.65rem;
+}
